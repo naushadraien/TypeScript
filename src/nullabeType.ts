@@ -1,4 +1,4 @@
-function greet(name: string | null) {
+function greet(name: string | null) {  //here | is  used as the union operator
     if (name){
        console.log(name.toLocaleUpperCase());
     }
