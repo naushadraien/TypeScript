@@ -4,4 +4,4 @@ type Qunatity = 50 | 100; //this is union type and this type defined is custom t
 
 let quantity: Qunatity = 50; //here we can only assign 50 or 100 to quantity variable 
 
-type Metric = '50' | '100'; //this is union type and this type defined is custom type
+type Metric = 'cm' | 'inch'; //this is union type and this type defined is custom type
